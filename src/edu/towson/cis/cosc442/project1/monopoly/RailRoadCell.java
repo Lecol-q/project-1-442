@@ -1,8 +1,8 @@
 package edu.towson.cis.cosc442.project1.monopoly;
 
 public class RailRoadCell extends Cell {
-	static private int baseRent;
 	static public String COLOR_GROUP = "RAILROAD";
+	static private int baseRent;
 	static private int price;
 
 	public static void setBaseRent(int baseRent) {
