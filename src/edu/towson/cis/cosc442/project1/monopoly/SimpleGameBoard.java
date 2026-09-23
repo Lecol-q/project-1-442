@@ -2,6 +2,12 @@ package edu.towson.cis.cosc442.project1.monopoly;
 
 
 public class SimpleGameBoard extends GameBoard {
+	/**
+	 * Constructs a SimpleGameBoard with predefined PropertyCells representing blue and green properties.
+	 */
+	/**
+	 * Constructs a SimpleGameBoard with predefined PropertyCells representing blue and green properties.
+	 */
 	public SimpleGameBoard() {
 		super();
 		PropertyCell blue1 = new PropertyCell();
