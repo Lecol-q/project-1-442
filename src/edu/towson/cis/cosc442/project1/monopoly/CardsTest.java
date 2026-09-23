@@ -18,6 +18,8 @@ public class CardsTest extends TestCase {
         gameMaster.getGameBoard().addCard(ccCard);
     }
     
+    // Task 8 - modifying TYPE_CHANCE to TYPE_CC to see how
+    // an incorrect test is shown
     public void testCardType() {
         gameMaster.drawCCCard();
         assertEquals(Card.TYPE_CC, ccCard.getCardType());
